@@ -1,0 +1,7 @@
+a {
+  @apply .text-grey-darker .no-underline;
+
+  &:hover {
+    @apply .text-teal;
+  }
+}
