@@ -1,0 +1,14 @@
+@responsive {
+
+  .li-pl-4 li {
+    @apply .pl-4;
+  }
+
+  .li-pb-4 li {
+    @apply .pb-4;
+  }
+
+  .li-pb-0 li {
+    @apply .pb-0;
+  }
+}

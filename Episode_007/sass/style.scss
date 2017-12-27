@@ -1,0 +1,34 @@
+/*!
+Theme Name: Tailwind Theme
+Theme URI: http://underscores.me/
+Author: Chris Perko
+Author URI: http://ChrisPerko.net/
+Description: Custom theme: Underscores, developed by Me
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: underscores
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+@tailwind preflight;
+
+/* Custom Components */
+@import "components/elements";
+
+//.menu {
+//  ul {
+//    @apply .list-reset .flex;
+//
+//    li {
+//      @apply .pl-4 .text-lg;
+//    }
+//  }
+//}
+
+
+@tailwind utilities;
+
+/* Custom Utilities */
+@import "utilities/accessibilty";
+@import "utilities/menu";
