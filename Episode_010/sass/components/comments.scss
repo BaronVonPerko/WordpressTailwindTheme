@@ -1,0 +1,11 @@
+.comment-form {
+  @apply .max-w-md;
+
+  p:not(:first-child) {
+    @apply .flex .flex-col;
+  }
+
+  .comment-notes {
+    @apply .my-2;
+  }
+}

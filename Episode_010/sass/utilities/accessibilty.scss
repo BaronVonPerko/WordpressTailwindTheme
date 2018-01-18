@@ -1,0 +1,9 @@
+.screen-reader-text {
+  display: none;
+}
+
+@media speech {
+  .screen-reader-text {
+    display: block;
+  }
+}
