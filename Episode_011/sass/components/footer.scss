@@ -1,0 +1,7 @@
+footer.site-footer a {
+  @apply text-grey-darker;
+
+  &:hover {
+    @apply text-grey-darkest;
+  }
+}

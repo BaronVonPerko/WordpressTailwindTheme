@@ -1,0 +1,25 @@
+a {
+  @apply .text-grey-darker .no-underline;
+
+  &:hover {
+    @apply .text-teal;
+  }
+}
+
+textarea, input {
+  @apply .border-2 .border-teal .p-2 .my-2;
+  outline: none;
+  transition: all 200ms ease;
+
+  &:focus {
+    @apply .border-teal-dark;
+  }
+}
+
+input[type="submit"] {
+  @apply .bg-teal .cursor-pointer;
+
+  &:hover {
+    @apply .bg-teal-dark .border-teal-dark;
+  }
+}
