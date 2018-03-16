@@ -1,0 +1,43 @@
+.widget-area {
+
+  @apply .border-l-2 .border-teal-lightest .pl-4;
+
+  h2.widget-title {
+    @apply .text-teal-darker .my-4;
+  }
+
+  ul {
+    @apply .list-reset;
+
+    li {
+      @apply .py-1 .ml-2;
+    }
+  }
+
+  .search-form {
+    @apply .flex;
+
+    input[type="search"], input[type="submit"] {
+      @apply .px-4 .py-2;
+      outline: 0;
+      transition: 300ms all ease;
+    }
+
+    input[type="search"] {
+      @apply .border-2 .border-teal-light .rounded-l-full .text-teal-darker .border-r-0;
+
+      &:focus {
+        @apply .border-teal;
+      }
+    }
+
+    input[type="submit"] {
+      @apply .rounded-r-full .cursor-pointer .text-teal-darker .bg-teal-light;
+
+      &:hover {
+        @apply .bg-teal .text-teal-darkest;
+      }
+    }
+  }
+
+}

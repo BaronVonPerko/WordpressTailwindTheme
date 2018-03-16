@@ -1,0 +1,47 @@
+.comments-area {
+  @apply .mb-32;
+
+  ol {
+    @apply .list-reset .pl-8;
+  }
+
+  article.comment-body {
+    @apply .bg-grey-lighter .py-2 .px-4 .rounded .shadow-md .mb-2;
+
+    .comment-content {
+      @apply .my-4;
+    }
+
+    .comment-author {
+      @apply .flex .items-center mb-2;
+
+      img.avatar {
+        @apply .mr-2;
+      }
+
+      span.says {
+        @apply .hidden;
+      }
+    }
+  }
+}
+
+.comment-respond {
+  @apply .mt-4;
+
+  .comment-reply-title, .logged-in-as {
+    @apply .mb-4;
+  }
+
+  .comment-form {
+    @apply .max-w-md;
+
+    p:not(:first-child) {
+      @apply .flex .flex-col;
+    }
+
+    .comment-notes {
+      @apply .my-2;
+    }
+  }
+}
